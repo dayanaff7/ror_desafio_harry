@@ -2,3 +2,4 @@
 APP_PATH = File.expand_path("../config/application", __dir__)
 require_relative "../config/boot"
 require "rails/commands"
+secret_key_base: 612cebe17d7758fbecb1e7a38c2d53d3f5e57f0c2c28122c3859fd07bfda6c31d39da1bc2b7c7d1e73c4abaac9eb76a5d8a04a18bd29549d3b7aa455e023834a
