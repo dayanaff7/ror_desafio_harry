@@ -1,6 +1,6 @@
 databases:
   - name: howarts_rails
-    databaseName: howarts_rails
+    databaseName: howarts_rails_production
     user: howarts_rails
     plan: starter
 
