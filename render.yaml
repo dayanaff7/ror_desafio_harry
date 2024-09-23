@@ -1,14 +1,14 @@
 databases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
-    plan: free
+  - name: howarts_rails
+    databaseName: howarts_rails
+    user: howarts_rails
+    plan: starter
 
 services:
   - type: web
-    name: mysite
+    name: howarts_rails
     runtime: ruby
-    plan: free
+    plan: starter
     buildCommand: "./bin/render-build.sh"
     # preDeployCommand: "bundle exec rails db:migrate" # preDeployCommand only available on paid instance types
     startCommand: "bundle exec rails server"
